@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B203DF920244772009ECFBE /* MyDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B203DF820244771009ECFBE /* MyDrawView.m */; };
+		5BBCEA4F20216A710000EB3D /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBCEA4E20216A710000EB3D /* SecondVC.m */; };
+		5BBCEA5220216FDE0000EB3D /* ThirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBCEA5120216FDE0000EB3D /* ThirdVC.m */; };
+		5BBCEA5520216FF50000EB3D /* FourVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBCEA5420216FF50000EB3D /* FourVC.m */; };
 		5BE1D3652020206C00476787 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D3642020206C00476787 /* AppDelegate.m */; };
 		5BE1D3682020206C00476787 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D3672020206C00476787 /* ViewController.m */; };
 		5BE1D36B2020206C00476787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE1D3692020206C00476787 /* Main.storyboard */; };
@@ -15,6 +19,30 @@
 		5BE1D3732020206C00476787 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D3722020206C00476787 /* main.m */; };
 		5BE1D37D2020206C00476787 /* AGGeometryKitUseDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D37C2020206C00476787 /* AGGeometryKitUseDemoTests.m */; };
 		5BE1D3882020206C00476787 /* AGGeometryKitUseDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D3872020206C00476787 /* AGGeometryKitUseDemoUITests.m */; };
+		5BE1D3CF202020BB00476787 /* AGKCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D39B202020BB00476787 /* AGKCorner.m */; };
+		5BE1D3D0202020BB00476787 /* AGKLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D39D202020BB00476787 /* AGKLine.m */; };
+		5BE1D3D1202020BB00476787 /* AGKMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D39F202020BB00476787 /* AGKMath.m */; };
+		5BE1D3D2202020BB00476787 /* AGKQuad.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D3A1202020BB00476787 /* AGKQuad.m */; };
+		5BE1D3D3202020BB00476787 /* AGKVector3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D3A3202020BB00476787 /* AGKVector3D.m */; };
+		5BE1D3D4202020BB00476787 /* AGKMatrix+AGKVector3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D3A7202020BB00476787 /* AGKMatrix+AGKVector3D.m */; };
+		5BE1D3D5202020BB00476787 /* AGKMatrix+CATransform3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D3A9202020BB00476787 /* AGKMatrix+CATransform3D.m */; };
+		5BE1D3D6202020BB00476787 /* AGKMatrix+GLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D3AB202020BB00476787 /* AGKMatrix+GLKit.m */; };
+		5BE1D3D7202020BB00476787 /* CALayer+AGK+Methods.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D3AD202020BB00476787 /* CALayer+AGK+Methods.m */; };
+		5BE1D3D8202020BB00476787 /* CALayer+AGK+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D3AF202020BB00476787 /* CALayer+AGK+Properties.m */; };
+		5BE1D3D9202020BB00476787 /* CALayer+AGKQuad.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D3B1202020BB00476787 /* CALayer+AGKQuad.m */; };
+		5BE1D3DA202020BB00476787 /* NSValue+AGKQuad.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D3B3202020BB00476787 /* NSValue+AGKQuad.m */; };
+		5BE1D3DB202020BB00476787 /* UIBezierPath+AGKQuad.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D3B5202020BB00476787 /* UIBezierPath+AGKQuad.m */; };
+		5BE1D3DC202020BB00476787 /* UIImage+AGK+CATransform3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D3B7202020BB00476787 /* UIImage+AGK+CATransform3D.m */; };
+		5BE1D3DD202020BB00476787 /* UIImage+AGKQuad.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D3B9202020BB00476787 /* UIImage+AGKQuad.m */; };
+		5BE1D3DE202020BB00476787 /* UIScrollView+AGK+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D3BB202020BB00476787 /* UIScrollView+AGK+Properties.m */; };
+		5BE1D3DF202020BB00476787 /* UIView+AGK+AngleConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D3BD202020BB00476787 /* UIView+AGK+AngleConverter.m */; };
+		5BE1D3E0202020BB00476787 /* UIView+AGK+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D3BF202020BB00476787 /* UIView+AGK+Properties.m */; };
+		5BE1D3E1202020BB00476787 /* AGKCALayerAnimationBlockDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D3C3202020BB00476787 /* AGKCALayerAnimationBlockDelegate.m */; };
+		5BE1D3E2202020BB00476787 /* AGKMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D3C5202020BB00476787 /* AGKMatrix.m */; };
+		5BE1D3E3202020BB00476787 /* AGKTransformPixelMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D3C7202020BB00476787 /* AGKTransformPixelMapper.m */; };
+		5BE1D3E4202020BC00476787 /* CGGeometry+AGGeometryKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D3CB202020BB00476787 /* CGGeometry+AGGeometryKit.m */; };
+		5BE1D3E5202020BC00476787 /* CGImageRef+AGK+CATransform3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D3CD202020BB00476787 /* CGImageRef+AGK+CATransform3D.m */; };
+		5BE1D3E6202020BC00476787 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BE1D3CE202020BB00476787 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +63,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B203DF720244771009ECFBE /* MyDrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDrawView.h; sourceTree = "<group>"; };
+		5B203DF820244771009ECFBE /* MyDrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDrawView.m; sourceTree = "<group>"; };
+		5BBCEA4D20216A710000EB3D /* SecondVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		5BBCEA4E20216A710000EB3D /* SecondVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
+		5BBCEA5020216FDE0000EB3D /* ThirdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdVC.h; sourceTree = "<group>"; };
+		5BBCEA5120216FDE0000EB3D /* ThirdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdVC.m; sourceTree = "<group>"; };
+		5BBCEA5320216FF50000EB3D /* FourVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourVC.h; sourceTree = "<group>"; };
+		5BBCEA5420216FF50000EB3D /* FourVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourVC.m; sourceTree = "<group>"; };
 		5BE1D3602020206C00476787 /* AGGeometryKitUseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGGeometryKitUseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE1D3632020206C00476787 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5BE1D3642020206C00476787 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +87,60 @@
 		5BE1D3832020206C00476787 /* AGGeometryKitUseDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AGGeometryKitUseDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE1D3872020206C00476787 /* AGGeometryKitUseDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGGeometryKitUseDemoUITests.m; sourceTree = "<group>"; };
 		5BE1D3892020206C00476787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE1D396202020BB00476787 /* AGGeometryKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AGGeometryKit-Prefix.pch"; sourceTree = "<group>"; };
+		5BE1D397202020BB00476787 /* AGGeometryKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGGeometryKit.h; sourceTree = "<group>"; };
+		5BE1D398202020BB00476787 /* AGKBaseDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGKBaseDefines.h; sourceTree = "<group>"; };
+		5BE1D399202020BB00476787 /* AGKBitOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGKBitOperations.h; sourceTree = "<group>"; };
+		5BE1D39A202020BB00476787 /* AGKCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGKCorner.h; sourceTree = "<group>"; };
+		5BE1D39B202020BB00476787 /* AGKCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGKCorner.m; sourceTree = "<group>"; };
+		5BE1D39C202020BB00476787 /* AGKLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGKLine.h; sourceTree = "<group>"; };
+		5BE1D39D202020BB00476787 /* AGKLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGKLine.m; sourceTree = "<group>"; };
+		5BE1D39E202020BB00476787 /* AGKMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGKMath.h; sourceTree = "<group>"; };
+		5BE1D39F202020BB00476787 /* AGKMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGKMath.m; sourceTree = "<group>"; };
+		5BE1D3A0202020BB00476787 /* AGKQuad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGKQuad.h; sourceTree = "<group>"; };
+		5BE1D3A1202020BB00476787 /* AGKQuad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGKQuad.m; sourceTree = "<group>"; };
+		5BE1D3A2202020BB00476787 /* AGKVector3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGKVector3D.h; sourceTree = "<group>"; };
+		5BE1D3A3202020BB00476787 /* AGKVector3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGKVector3D.m; sourceTree = "<group>"; };
+		5BE1D3A5202020BB00476787 /* AGGeometryKitCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGGeometryKitCategories.h; sourceTree = "<group>"; };
+		5BE1D3A6202020BB00476787 /* AGKMatrix+AGKVector3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AGKMatrix+AGKVector3D.h"; sourceTree = "<group>"; };
+		5BE1D3A7202020BB00476787 /* AGKMatrix+AGKVector3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AGKMatrix+AGKVector3D.m"; sourceTree = "<group>"; };
+		5BE1D3A8202020BB00476787 /* AGKMatrix+CATransform3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AGKMatrix+CATransform3D.h"; sourceTree = "<group>"; };
+		5BE1D3A9202020BB00476787 /* AGKMatrix+CATransform3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AGKMatrix+CATransform3D.m"; sourceTree = "<group>"; };
+		5BE1D3AA202020BB00476787 /* AGKMatrix+GLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AGKMatrix+GLKit.h"; sourceTree = "<group>"; };
+		5BE1D3AB202020BB00476787 /* AGKMatrix+GLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AGKMatrix+GLKit.m"; sourceTree = "<group>"; };
+		5BE1D3AC202020BB00476787 /* CALayer+AGK+Methods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+AGK+Methods.h"; sourceTree = "<group>"; };
+		5BE1D3AD202020BB00476787 /* CALayer+AGK+Methods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+AGK+Methods.m"; sourceTree = "<group>"; };
+		5BE1D3AE202020BB00476787 /* CALayer+AGK+Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+AGK+Properties.h"; sourceTree = "<group>"; };
+		5BE1D3AF202020BB00476787 /* CALayer+AGK+Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+AGK+Properties.m"; sourceTree = "<group>"; };
+		5BE1D3B0202020BB00476787 /* CALayer+AGKQuad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+AGKQuad.h"; sourceTree = "<group>"; };
+		5BE1D3B1202020BB00476787 /* CALayer+AGKQuad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+AGKQuad.m"; sourceTree = "<group>"; };
+		5BE1D3B2202020BB00476787 /* NSValue+AGKQuad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+AGKQuad.h"; sourceTree = "<group>"; };
+		5BE1D3B3202020BB00476787 /* NSValue+AGKQuad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValue+AGKQuad.m"; sourceTree = "<group>"; };
+		5BE1D3B4202020BB00476787 /* UIBezierPath+AGKQuad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+AGKQuad.h"; sourceTree = "<group>"; };
+		5BE1D3B5202020BB00476787 /* UIBezierPath+AGKQuad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+AGKQuad.m"; sourceTree = "<group>"; };
+		5BE1D3B6202020BB00476787 /* UIImage+AGK+CATransform3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AGK+CATransform3D.h"; sourceTree = "<group>"; };
+		5BE1D3B7202020BB00476787 /* UIImage+AGK+CATransform3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AGK+CATransform3D.m"; sourceTree = "<group>"; };
+		5BE1D3B8202020BB00476787 /* UIImage+AGKQuad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AGKQuad.h"; sourceTree = "<group>"; };
+		5BE1D3B9202020BB00476787 /* UIImage+AGKQuad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AGKQuad.m"; sourceTree = "<group>"; };
+		5BE1D3BA202020BB00476787 /* UIScrollView+AGK+Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+AGK+Properties.h"; sourceTree = "<group>"; };
+		5BE1D3BB202020BB00476787 /* UIScrollView+AGK+Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+AGK+Properties.m"; sourceTree = "<group>"; };
+		5BE1D3BC202020BB00476787 /* UIView+AGK+AngleConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AGK+AngleConverter.h"; sourceTree = "<group>"; };
+		5BE1D3BD202020BB00476787 /* UIView+AGK+AngleConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AGK+AngleConverter.m"; sourceTree = "<group>"; };
+		5BE1D3BE202020BB00476787 /* UIView+AGK+Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AGK+Properties.h"; sourceTree = "<group>"; };
+		5BE1D3BF202020BB00476787 /* UIView+AGK+Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AGK+Properties.m"; sourceTree = "<group>"; };
+		5BE1D3C1202020BB00476787 /* AGGeometryKitClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGGeometryKitClasses.h; sourceTree = "<group>"; };
+		5BE1D3C2202020BB00476787 /* AGKCALayerAnimationBlockDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGKCALayerAnimationBlockDelegate.h; sourceTree = "<group>"; };
+		5BE1D3C3202020BB00476787 /* AGKCALayerAnimationBlockDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGKCALayerAnimationBlockDelegate.m; sourceTree = "<group>"; };
+		5BE1D3C4202020BB00476787 /* AGKMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGKMatrix.h; sourceTree = "<group>"; };
+		5BE1D3C5202020BB00476787 /* AGKMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGKMatrix.m; sourceTree = "<group>"; };
+		5BE1D3C6202020BB00476787 /* AGKTransformPixelMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGKTransformPixelMapper.h; sourceTree = "<group>"; };
+		5BE1D3C7202020BB00476787 /* AGKTransformPixelMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGKTransformPixelMapper.m; sourceTree = "<group>"; };
+		5BE1D3C9202020BB00476787 /* AGGeometryKitCoreGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGGeometryKitCoreGraphics.h; sourceTree = "<group>"; };
+		5BE1D3CA202020BB00476787 /* CGGeometry+AGGeometryKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGGeometry+AGGeometryKit.h"; sourceTree = "<group>"; };
+		5BE1D3CB202020BB00476787 /* CGGeometry+AGGeometryKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGGeometry+AGGeometryKit.m"; sourceTree = "<group>"; };
+		5BE1D3CC202020BB00476787 /* CGImageRef+AGK+CATransform3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGImageRef+AGK+CATransform3D.h"; sourceTree = "<group>"; };
+		5BE1D3CD202020BB00476787 /* CGImageRef+AGK+CATransform3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGImageRef+AGK+CATransform3D.m"; sourceTree = "<group>"; };
+		5BE1D3CE202020BB00476787 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +191,20 @@
 		5BE1D3622020206C00476787 /* AGGeometryKitUseDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5BE1D395202020BB00476787 /* AGGeometryKit */,
 				5BE1D3632020206C00476787 /* AppDelegate.h */,
 				5BE1D3642020206C00476787 /* AppDelegate.m */,
 				5BE1D3662020206C00476787 /* ViewController.h */,
 				5BE1D3672020206C00476787 /* ViewController.m */,
 				5BE1D3692020206C00476787 /* Main.storyboard */,
+				5BBCEA4D20216A710000EB3D /* SecondVC.h */,
+				5BBCEA4E20216A710000EB3D /* SecondVC.m */,
+				5BBCEA5020216FDE0000EB3D /* ThirdVC.h */,
+				5BBCEA5120216FDE0000EB3D /* ThirdVC.m */,
+				5BBCEA5320216FF50000EB3D /* FourVC.h */,
+				5BBCEA5420216FF50000EB3D /* FourVC.m */,
+				5B203DF720244771009ECFBE /* MyDrawView.h */,
+				5B203DF820244771009ECFBE /* MyDrawView.m */,
 				5BE1D36C2020206C00476787 /* Assets.xcassets */,
 				5BE1D36E2020206C00476787 /* LaunchScreen.storyboard */,
 				5BE1D3712020206C00476787 /* Info.plist */,
@@ -130,6 +229,91 @@
 				5BE1D3892020206C00476787 /* Info.plist */,
 			);
 			path = AGGeometryKitUseDemoUITests;
+			sourceTree = "<group>";
+		};
+		5BE1D395202020BB00476787 /* AGGeometryKit */ = {
+			isa = PBXGroup;
+			children = (
+				5BE1D396202020BB00476787 /* AGGeometryKit-Prefix.pch */,
+				5BE1D397202020BB00476787 /* AGGeometryKit.h */,
+				5BE1D398202020BB00476787 /* AGKBaseDefines.h */,
+				5BE1D399202020BB00476787 /* AGKBitOperations.h */,
+				5BE1D39A202020BB00476787 /* AGKCorner.h */,
+				5BE1D39B202020BB00476787 /* AGKCorner.m */,
+				5BE1D39C202020BB00476787 /* AGKLine.h */,
+				5BE1D39D202020BB00476787 /* AGKLine.m */,
+				5BE1D39E202020BB00476787 /* AGKMath.h */,
+				5BE1D39F202020BB00476787 /* AGKMath.m */,
+				5BE1D3A0202020BB00476787 /* AGKQuad.h */,
+				5BE1D3A1202020BB00476787 /* AGKQuad.m */,
+				5BE1D3A2202020BB00476787 /* AGKVector3D.h */,
+				5BE1D3A3202020BB00476787 /* AGKVector3D.m */,
+				5BE1D3A4202020BB00476787 /* Categories */,
+				5BE1D3C0202020BB00476787 /* Classes */,
+				5BE1D3C8202020BB00476787 /* CoreGraphics_Extensions */,
+				5BE1D3CE202020BB00476787 /* Info.plist */,
+			);
+			path = AGGeometryKit;
+			sourceTree = "<group>";
+		};
+		5BE1D3A4202020BB00476787 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				5BE1D3A5202020BB00476787 /* AGGeometryKitCategories.h */,
+				5BE1D3A6202020BB00476787 /* AGKMatrix+AGKVector3D.h */,
+				5BE1D3A7202020BB00476787 /* AGKMatrix+AGKVector3D.m */,
+				5BE1D3A8202020BB00476787 /* AGKMatrix+CATransform3D.h */,
+				5BE1D3A9202020BB00476787 /* AGKMatrix+CATransform3D.m */,
+				5BE1D3AA202020BB00476787 /* AGKMatrix+GLKit.h */,
+				5BE1D3AB202020BB00476787 /* AGKMatrix+GLKit.m */,
+				5BE1D3AC202020BB00476787 /* CALayer+AGK+Methods.h */,
+				5BE1D3AD202020BB00476787 /* CALayer+AGK+Methods.m */,
+				5BE1D3AE202020BB00476787 /* CALayer+AGK+Properties.h */,
+				5BE1D3AF202020BB00476787 /* CALayer+AGK+Properties.m */,
+				5BE1D3B0202020BB00476787 /* CALayer+AGKQuad.h */,
+				5BE1D3B1202020BB00476787 /* CALayer+AGKQuad.m */,
+				5BE1D3B2202020BB00476787 /* NSValue+AGKQuad.h */,
+				5BE1D3B3202020BB00476787 /* NSValue+AGKQuad.m */,
+				5BE1D3B4202020BB00476787 /* UIBezierPath+AGKQuad.h */,
+				5BE1D3B5202020BB00476787 /* UIBezierPath+AGKQuad.m */,
+				5BE1D3B6202020BB00476787 /* UIImage+AGK+CATransform3D.h */,
+				5BE1D3B7202020BB00476787 /* UIImage+AGK+CATransform3D.m */,
+				5BE1D3B8202020BB00476787 /* UIImage+AGKQuad.h */,
+				5BE1D3B9202020BB00476787 /* UIImage+AGKQuad.m */,
+				5BE1D3BA202020BB00476787 /* UIScrollView+AGK+Properties.h */,
+				5BE1D3BB202020BB00476787 /* UIScrollView+AGK+Properties.m */,
+				5BE1D3BC202020BB00476787 /* UIView+AGK+AngleConverter.h */,
+				5BE1D3BD202020BB00476787 /* UIView+AGK+AngleConverter.m */,
+				5BE1D3BE202020BB00476787 /* UIView+AGK+Properties.h */,
+				5BE1D3BF202020BB00476787 /* UIView+AGK+Properties.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		5BE1D3C0202020BB00476787 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5BE1D3C1202020BB00476787 /* AGGeometryKitClasses.h */,
+				5BE1D3C2202020BB00476787 /* AGKCALayerAnimationBlockDelegate.h */,
+				5BE1D3C3202020BB00476787 /* AGKCALayerAnimationBlockDelegate.m */,
+				5BE1D3C4202020BB00476787 /* AGKMatrix.h */,
+				5BE1D3C5202020BB00476787 /* AGKMatrix.m */,
+				5BE1D3C6202020BB00476787 /* AGKTransformPixelMapper.h */,
+				5BE1D3C7202020BB00476787 /* AGKTransformPixelMapper.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5BE1D3C8202020BB00476787 /* CoreGraphics_Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5BE1D3C9202020BB00476787 /* AGGeometryKitCoreGraphics.h */,
+				5BE1D3CA202020BB00476787 /* CGGeometry+AGGeometryKit.h */,
+				5BE1D3CB202020BB00476787 /* CGGeometry+AGGeometryKit.m */,
+				5BE1D3CC202020BB00476787 /* CGImageRef+AGK+CATransform3D.h */,
+				5BE1D3CD202020BB00476787 /* CGImageRef+AGK+CATransform3D.m */,
+			);
+			path = CoreGraphics_Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +422,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BE1D3E6202020BC00476787 /* Info.plist in Resources */,
 				5BE1D3702020206C00476787 /* LaunchScreen.storyboard in Resources */,
 				5BE1D36D2020206C00476787 /* Assets.xcassets in Resources */,
 				5BE1D36B2020206C00476787 /* Main.storyboard in Resources */,
@@ -265,9 +450,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BBCEA5220216FDE0000EB3D /* ThirdVC.m in Sources */,
 				5BE1D3682020206C00476787 /* ViewController.m in Sources */,
+				5BE1D3DE202020BB00476787 /* UIScrollView+AGK+Properties.m in Sources */,
+				5BE1D3E3202020BB00476787 /* AGKTransformPixelMapper.m in Sources */,
+				5BE1D3E4202020BC00476787 /* CGGeometry+AGGeometryKit.m in Sources */,
+				5BE1D3D1202020BB00476787 /* AGKMath.m in Sources */,
 				5BE1D3732020206C00476787 /* main.m in Sources */,
+				5BE1D3D6202020BB00476787 /* AGKMatrix+GLKit.m in Sources */,
+				5BBCEA4F20216A710000EB3D /* SecondVC.m in Sources */,
+				5BE1D3E1202020BB00476787 /* AGKCALayerAnimationBlockDelegate.m in Sources */,
+				5BE1D3CF202020BB00476787 /* AGKCorner.m in Sources */,
+				5BE1D3D4202020BB00476787 /* AGKMatrix+AGKVector3D.m in Sources */,
+				5B203DF920244772009ECFBE /* MyDrawView.m in Sources */,
+				5BE1D3DB202020BB00476787 /* UIBezierPath+AGKQuad.m in Sources */,
+				5BE1D3D8202020BB00476787 /* CALayer+AGK+Properties.m in Sources */,
+				5BE1D3D0202020BB00476787 /* AGKLine.m in Sources */,
+				5BE1D3E5202020BC00476787 /* CGImageRef+AGK+CATransform3D.m in Sources */,
+				5BBCEA5520216FF50000EB3D /* FourVC.m in Sources */,
+				5BE1D3D5202020BB00476787 /* AGKMatrix+CATransform3D.m in Sources */,
+				5BE1D3DD202020BB00476787 /* UIImage+AGKQuad.m in Sources */,
+				5BE1D3D3202020BB00476787 /* AGKVector3D.m in Sources */,
 				5BE1D3652020206C00476787 /* AppDelegate.m in Sources */,
+				5BE1D3E0202020BB00476787 /* UIView+AGK+Properties.m in Sources */,
+				5BE1D3D7202020BB00476787 /* CALayer+AGK+Methods.m in Sources */,
+				5BE1D3DA202020BB00476787 /* NSValue+AGKQuad.m in Sources */,
+				5BE1D3D9202020BB00476787 /* CALayer+AGKQuad.m in Sources */,
+				5BE1D3D2202020BB00476787 /* AGKQuad.m in Sources */,
+				5BE1D3E2202020BB00476787 /* AGKMatrix.m in Sources */,
+				5BE1D3DC202020BB00476787 /* UIImage+AGK+CATransform3D.m in Sources */,
+				5BE1D3DF202020BB00476787 /* UIView+AGK+AngleConverter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,9 +642,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 326Y8YH5QB;
 				INFOPLIST_FILE = AGGeometryKitUseDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hunuo.AGGeometryKitUseDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,9 +658,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 326Y8YH5QB;
 				INFOPLIST_FILE = AGGeometryKitUseDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hunuo.AGGeometryKitUseDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
