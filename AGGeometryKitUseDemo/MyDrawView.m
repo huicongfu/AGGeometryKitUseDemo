@@ -19,6 +19,8 @@
     // 获取当前上下文
     CGContextRef context = UIGraphicsGetCurrentContext();
     UIColor * strokeColor = [UIColor blueColor];
+   
+    /*
     //设置stroke模式的颜色使用CGColor
     CGContextSetStrokeColorWithColor(context, strokeColor.CGColor);
     //设置线的宽度
@@ -37,6 +39,45 @@
     
     //绘制当前的路径
     CGContextStrokePath(context);
+     */
+    
+    /*
+    CGContextSetFillColorWithColor(context, strokeColor.CGColor);
+    //起始点
+    CGContextMoveToPoint(context, 10.0, 10.0);
+    CGContextAddLineToPoint(context, 10.0, 80.0);
+    CGContextAddLineToPoint(context, 80.0, 80.0);
+   // CGContextClosePath(context);
+    CGContextFillPath(context);
+     */
+    
+    /*
+    CGContextSetStrokeColorWithColor(context, strokeColor.CGColor);
+    CGContextSetLineWidth(context, 5.0);
+    CGContextSetLineJoin(context, kCGLineJoinRound);
+    //起始点
+    CGPoint circleCenter = CGPointMake(rect.size.width * 0.5, rect.size.height * 0.5);
+    CGContextMoveToPoint(context, circleCenter.x * 2, circleCenter.y);
+    
+    CGContextAddArc(context, circleCenter.x, circleCenter.y, rect.size.width*0.5, 0.0, M_PI * 2, 0);
+    CGContextStrokePath(context);
+     */
+    
+    
+    CGContextSetFillColorWithColor(context, strokeColor.CGColor);
+    CGPoint circleCenter = CGPointMake(rect.size.width * 0.5, rect.size.height * 0.5);
+    CGContextMoveToPoint(context, circleCenter.x * 2, circleCenter.y);
+    // 画圆
+    // x -> 圆心的x坐标
+    // y -> 圆心的y坐标
+    // radius -> 圆的半径
+    // startAngle -> 起始角度 (弧度制) 所以上面调整了起始点
+    // endAngle -> 结束角度(弧度制)
+    CGContextAddArc(context, circleCenter.x, circleCenter.y, rect.size.width * 0.5, 0.0, M_PI * 2, 0);
+    // 绘制当前的路径
+    CGContextFillPath(context);
+
+    
 }
 
 
