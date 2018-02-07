@@ -8,10 +8,12 @@
 
 #import "ThirdVC.h"
 #import "MyDrawView.h"
+#import "MyDrawView2.h"
 
 @interface ThirdVC ()
 
 @property (nonatomic, retain) MyDrawView * view1;
+@property (nonatomic, retain) MyDrawView2 * view2;
 
 @end
 
@@ -25,9 +27,11 @@
 
 - (void)createUI {
     self.view1 = [[MyDrawView alloc] initWithFrame:CGRectMake(50, 50, 300, 200)];
-//    self.view1.backgroundColor = [UIColor yellowColor];
     [self.view addSubview:self.view1];
-//    [self.view1 setNeedsDisplay];
+    
+    
+    self.view2 = [[MyDrawView2 alloc] initWithFrame:CGRectMake(50, 300, 300, 200)];
+    [self.view addSubview:self.view2];
 }
 
 - (void)didReceiveMemoryWarning {

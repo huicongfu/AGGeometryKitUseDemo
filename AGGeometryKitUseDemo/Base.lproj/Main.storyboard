@@ -21,8 +21,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sample_image6" translatesAutoresizingMaskIntoConstraints="NO" id="ou8-01-pQp">
-                                <rect key="frame" x="58" y="238" width="240" height="128"/>
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sample_image6" translatesAutoresizingMaskIntoConstraints="NO" id="nmT-82-oOw">
+                                <rect key="frame" x="59" y="242" width="242" height="131"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="controlpoint" translatesAutoresizingMaskIntoConstraints="NO" id="Ugj-fB-61R">
@@ -64,7 +64,7 @@
                     <connections>
                         <outlet property="bottomLeftControl" destination="roz-YA-9Ks" id="Gae-sJ-yQX"/>
                         <outlet property="bottomRightControl" destination="KE8-f1-CPk" id="VtD-FI-sQg"/>
-                        <outlet property="imageView" destination="ou8-01-pQp" id="9OU-vZ-Net"/>
+                        <outlet property="imageView" destination="nmT-82-oOw" id="IIe-W7-mgi"/>
                         <outlet property="topLeftControl" destination="Ugj-fB-61R" id="CUo-Bh-a3V"/>
                         <outlet property="topRightControl" destination="CEv-9T-54w" id="waA-QX-Efe"/>
                     </connections>
@@ -91,7 +91,7 @@
                     </connections>
                 </panGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="230" y="77"/>
+            <point key="canvasLocation" x="229.59999999999999" y="76.911544227886068"/>
         </scene>
         <!--Item1-->
         <scene sceneID="yzE-sV-3oJ">
@@ -166,9 +166,22 @@
                     <view key="view" contentMode="scaleToFill" id="M0T-yo-ug3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sample_image6" translatesAutoresizingMaskIntoConstraints="NO" id="ou8-01-pQp">
+                                <rect key="frame" x="-310" y="-283" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sample_image6" translatesAutoresizingMaskIntoConstraints="NO" id="Ieq-49-ssL">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item4" id="COn-CT-lHz"/>
+                    <connections>
+                        <outlet property="myImageView" destination="Ieq-49-ssL" id="wNt-qm-qoe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QLH-X6-VRL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -180,6 +193,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="eh7-Y2-UhQ" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yH3-kY-Szw">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
