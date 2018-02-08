@@ -9,11 +9,13 @@
 #import "ThirdVC.h"
 #import "MyDrawView.h"
 #import "MyDrawView2.h"
+#import "MyDrawView3.h"
 
 @interface ThirdVC ()
 
 @property (nonatomic, retain) MyDrawView * view1;
 @property (nonatomic, retain) MyDrawView2 * view2;
+@property (nonatomic, retain) MyDrawView3 * view3;
 
 @end
 
@@ -22,7 +24,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self createUI];
+//    [self createUI];
+    
+    [self createDarwUI];
+}
+
+- (void)createDarwUI {
+    
+    self.view3 = [[MyDrawView3 alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:self.view3];
 }
 
 - (void)createUI {

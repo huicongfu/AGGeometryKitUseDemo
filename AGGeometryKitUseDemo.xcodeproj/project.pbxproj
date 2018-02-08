@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5B203DF920244772009ECFBE /* MyDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B203DF820244771009ECFBE /* MyDrawView.m */; };
 		5B9267D620295B3C004475EC /* MyDrawView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9267D520295B3C004475EC /* MyDrawView2.m */; };
+		5BA7E8F3202C49DD00869B0A /* MyDrawView3.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA7E8F2202C49DD00869B0A /* MyDrawView3.m */; };
 		5BBCEA4F20216A710000EB3D /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBCEA4E20216A710000EB3D /* SecondVC.m */; };
 		5BBCEA5220216FDE0000EB3D /* ThirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBCEA5120216FDE0000EB3D /* ThirdVC.m */; };
 		5BBCEA5520216FF50000EB3D /* FourVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBCEA5420216FF50000EB3D /* FourVC.m */; };
@@ -68,6 +69,8 @@
 		5B203DF820244771009ECFBE /* MyDrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDrawView.m; sourceTree = "<group>"; };
 		5B9267D420295B3C004475EC /* MyDrawView2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDrawView2.h; sourceTree = "<group>"; };
 		5B9267D520295B3C004475EC /* MyDrawView2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDrawView2.m; sourceTree = "<group>"; };
+		5BA7E8F1202C49DD00869B0A /* MyDrawView3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDrawView3.h; sourceTree = "<group>"; };
+		5BA7E8F2202C49DD00869B0A /* MyDrawView3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDrawView3.m; sourceTree = "<group>"; };
 		5BBCEA4D20216A710000EB3D /* SecondVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
 		5BBCEA4E20216A710000EB3D /* SecondVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
 		5BBCEA5020216FDE0000EB3D /* ThirdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdVC.h; sourceTree = "<group>"; };
@@ -210,6 +213,8 @@
 				5B203DF820244771009ECFBE /* MyDrawView.m */,
 				5B9267D420295B3C004475EC /* MyDrawView2.h */,
 				5B9267D520295B3C004475EC /* MyDrawView2.m */,
+				5BA7E8F1202C49DD00869B0A /* MyDrawView3.h */,
+				5BA7E8F2202C49DD00869B0A /* MyDrawView3.m */,
 				5BE1D36C2020206C00476787 /* Assets.xcassets */,
 				5BE1D36E2020206C00476787 /* LaunchScreen.storyboard */,
 				5BE1D3712020206C00476787 /* Info.plist */,
@@ -465,6 +470,7 @@
 				5BE1D3732020206C00476787 /* main.m in Sources */,
 				5BE1D3D6202020BB00476787 /* AGKMatrix+GLKit.m in Sources */,
 				5BBCEA4F20216A710000EB3D /* SecondVC.m in Sources */,
+				5BA7E8F3202C49DD00869B0A /* MyDrawView3.m in Sources */,
 				5BE1D3E1202020BB00476787 /* AGKCALayerAnimationBlockDelegate.m in Sources */,
 				5BE1D3CF202020BB00476787 /* AGKCorner.m in Sources */,
 				5BE1D3D4202020BB00476787 /* AGKMatrix+AGKVector3D.m in Sources */,
