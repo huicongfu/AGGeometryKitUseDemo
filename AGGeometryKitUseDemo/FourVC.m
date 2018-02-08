@@ -11,31 +11,34 @@
 @interface FourVC ()
 
 @property (strong, nonatomic) IBOutlet UIImageView *myImageView;
+@property (nonatomic, retain) CALayer * imageLayer;
+
 @end
 
 @implementation FourVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    self.myImageView.hidden = YES;
+    self.myImageView.hidden = YES;
 //    [self createUI];
 //    [self createReflectionView];
 //    [self testAnchorPoint];
-    [self createReflectionView2];
+//    [self createReflectionView2];
+    [self createReflectionView3];
 }
 
-- (void)createRfelectionView3 {
+- (void)createReflectionView3 {
     UIImage * gledeImage = [UIImage imageNamed:@"sample_image6"];
     
     [self.view setBackgroundColor:[UIColor whiteColor]];
-    [[self view] layer].borderColor = [UIColor blueColor].CGColor;
-    [[self view] layer].borderWidth = 2;
+    self.view.layer.borderColor = [UIColor blueColor].CGColor;
+    self.view.layer.borderWidth = 2;
     
-    CAReplicatorLayer *layer = [CAReplicatorLayer layer];
-    [layer setContentsScale:[[UIScreen mainScreen] scale] ];
+    CAReplicatorLayer * layer = [CAReplicatorLayer layer];
+    [layer setContentsScale:[UIScreen mainScreen].scale];
     
-    [layer setBounds:CGRectMake(0, 0, gledeImage.size.width, gledeImage.size.height * 1.5)];
-    layer.masksToBounds =  YES;
+    [layer setBounds:CGRectMake(0, 0, gledeImage.size.width, gledeImage.size.height*1.5)];
+    layer.masksToBounds = YES;
     layer.anchorPoint = CGPointMake(0.5, 0.0);
     layer.position = CGPointMake(self.view.frame.size.width/2, 10.0);
     layer.borderColor = [UIColor redColor].CGColor;
@@ -50,26 +53,63 @@
     
     layer.instanceTransform = transform;
     
-    CALayer * imageLayer = [CALayer layer];
-    [imageLayer setContentsScale:[[UIScreen mainScreen] scale]];
-    [imageLayer setContents:(__bridge id)gledeImage.CGImage];
-    [imageLayer setBounds:CGRectMake(0.0, 0.0, [gledeImage size].width, [gledeImage size].height)];
-    [imageLayer setAnchorPoint:CGPointMake(0, 0)];
+    _imageLayer = [CALayer layer];
+    [_imageLayer setContentsScale:[UIScreen mainScreen].scale];
+    _imageLayer.contents = (__bridge id _Nullable)(gledeImage.CGImage);
+    _imageLayer.bounds = CGRectMake(0, 0, gledeImage.size.width, gledeImage.size.height);
+    _imageLayer.anchorPoint = CGPointMake(0, 0);
     
-    [layer addSublayer:imageLayer];
+    [layer addSublayer:_imageLayer];
     
-    CAGradientLayer *gradientLayer = [CAGradientLayer layer];
-    [gradientLayer setColors:[NSArray arrayWithObjects:(__bridge id)[[UIColor whiteColor] colorWithAlphaComponent:0.25].CGColor, [UIColor whiteColor].CGColor, nil]];
+    CAGradientLayer * gradientLayer = [CAGradientLayer layer];
+    gradientLayer.colors = [NSArray arrayWithObjects:(__bridge id)[[UIColor whiteColor] colorWithAlphaComponent:0.25].CGColor, [UIColor whiteColor].CGColor, nil];
     
-    [gradientLayer setBounds:CGRectMake(0, 0, layer.frame.size.width, [gledeImage size].height * 0.5 + 1.0)];
-    [gradientLayer setAnchorPoint:CGPointMake(0.5, 0)];
+    gradientLayer.bounds = CGRectMake(0, 0, layer.frame.size.width, gledeImage.size.height * 0.5 + 1.0);
+    gradientLayer.anchorPoint = CGPointMake(0.5, 0);
     [gradientLayer setPosition:CGPointMake(self.view.frame.size.width/2, gledeImage.size.height + 10.0)];
     [gradientLayer setZPosition:1];
     
-    [gradientLayer setContentsScale:[[UIScreen mainScreen] scale]];
+    gradientLayer.contentsScale = [UIScreen mainScreen].scale;
     
-    [[[self view] layer] addSublayer:layer];
-    [[[self view] layer] addSublayer:gradientLayer];
+    [self.view.layer addSublayer:layer];
+    [self.view.layer addSublayer:gradientLayer];
+    
+    //
+    CATextLayer * textLayer = [CATextLayer layer];
+    [textLayer setContentsScale:[UIScreen mainScreen].scale];
+    [textLayer setString:@"Fu Technology"];
+    [textLayer setFontSize:18];
+    [textLayer setAlignmentMode:kCAAlignmentCenter];
+    [textLayer setShadowColor:[UIColor blackColor].CGColor];
+    [textLayer setShadowOpacity:1.0];
+    [textLayer setShadowOffset:CGSizeMake(-4, -4)];
+    [textLayer setBounds:CGRectMake(0, 0, _imageLayer.frame.size.width, 30)];
+    [textLayer setPosition:CGPointMake(_imageLayer.frame.size.width/2, _imageLayer.frame.size.height - 20)];
+//    [textLayer setAnchorPoint:CGPointMake(0.5, 0.5)];
+    [_imageLayer addSublayer:textLayer];
+    [self.view setUserInteractionEnabled:YES];
+    [self.view setMultipleTouchEnabled:YES];
+    
+    UITapGestureRecognizer * tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(animateTextLayer:)];
+    [self.view addGestureRecognizer:tap];
+    
+}
+
+- (void)animateTextLayer:(id)animateTextLayer {
+    
+    CALayer * textLayer = [[_imageLayer sublayers] objectAtIndex:0];
+    CABasicAnimation * animation = [CABasicAnimation animationWithKeyPath:@"position.y"];
+    CGFloat endPoint = [textLayer frame].size.height / 2;
+    
+    //textLayer.position.y
+    [animation setFromValue:[NSNumber numberWithFloat:textLayer.frame.origin.y + endPoint]];
+    [animation setToValue:[NSNumber numberWithFloat:endPoint]];
+    [animation setDuration:3.0];
+    [animation setRepeatCount:MAXFLOAT];
+    [animation setAutoreverses:YES];
+    
+    [textLayer addAnimation:animation forKey:nil];
+    
 }
 
 - (void)createReflectionView2 {
