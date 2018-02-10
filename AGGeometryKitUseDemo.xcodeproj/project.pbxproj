@@ -14,6 +14,8 @@
 		5BBCEA4F20216A710000EB3D /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBCEA4E20216A710000EB3D /* SecondVC.m */; };
 		5BBCEA5220216FDE0000EB3D /* ThirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBCEA5120216FDE0000EB3D /* ThirdVC.m */; };
 		5BBCEA5520216FF50000EB3D /* FourVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBCEA5420216FF50000EB3D /* FourVC.m */; };
+		5BDA3995202E9683006F47AA /* MySixDrawMethodView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDA3994202E9683006F47AA /* MySixDrawMethodView.m */; };
+		5BDA3998202ED4AF006F47AA /* MyHandleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDA3997202ED4AF006F47AA /* MyHandleImageView.m */; };
 		5BE1D3652020206C00476787 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D3642020206C00476787 /* AppDelegate.m */; };
 		5BE1D3682020206C00476787 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D3672020206C00476787 /* ViewController.m */; };
 		5BE1D36B2020206C00476787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE1D3692020206C00476787 /* Main.storyboard */; };
@@ -80,6 +82,10 @@
 		5BBCEA5120216FDE0000EB3D /* ThirdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdVC.m; sourceTree = "<group>"; };
 		5BBCEA5320216FF50000EB3D /* FourVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourVC.h; sourceTree = "<group>"; };
 		5BBCEA5420216FF50000EB3D /* FourVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourVC.m; sourceTree = "<group>"; };
+		5BDA3993202E9683006F47AA /* MySixDrawMethodView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySixDrawMethodView.h; sourceTree = "<group>"; };
+		5BDA3994202E9683006F47AA /* MySixDrawMethodView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySixDrawMethodView.m; sourceTree = "<group>"; };
+		5BDA3996202ED4AF006F47AA /* MyHandleImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyHandleImageView.h; sourceTree = "<group>"; };
+		5BDA3997202ED4AF006F47AA /* MyHandleImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyHandleImageView.m; sourceTree = "<group>"; };
 		5BE1D3602020206C00476787 /* AGGeometryKitUseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGGeometryKitUseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE1D3632020206C00476787 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5BE1D3642020206C00476787 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -220,6 +226,10 @@
 				5BA7E8F2202C49DD00869B0A /* MyDrawView3.m */,
 				5BB930E3202D7EE400D6B493 /* MyBrushView.h */,
 				5BB930E4202D7EE400D6B493 /* MyBrushView.m */,
+				5BDA3993202E9683006F47AA /* MySixDrawMethodView.h */,
+				5BDA3994202E9683006F47AA /* MySixDrawMethodView.m */,
+				5BDA3996202ED4AF006F47AA /* MyHandleImageView.h */,
+				5BDA3997202ED4AF006F47AA /* MyHandleImageView.m */,
 				5BE1D36C2020206C00476787 /* Assets.xcassets */,
 				5BE1D36E2020206C00476787 /* LaunchScreen.storyboard */,
 				5BE1D3712020206C00476787 /* Info.plist */,
@@ -486,6 +496,7 @@
 				5BE1D3E5202020BC00476787 /* CGImageRef+AGK+CATransform3D.m in Sources */,
 				5BB930E5202D7EE400D6B493 /* MyBrushView.m in Sources */,
 				5BBCEA5520216FF50000EB3D /* FourVC.m in Sources */,
+				5BDA3998202ED4AF006F47AA /* MyHandleImageView.m in Sources */,
 				5BE1D3D5202020BB00476787 /* AGKMatrix+CATransform3D.m in Sources */,
 				5BE1D3DD202020BB00476787 /* UIImage+AGKQuad.m in Sources */,
 				5BE1D3D3202020BB00476787 /* AGKVector3D.m in Sources */,
@@ -495,6 +506,7 @@
 				5BE1D3DA202020BB00476787 /* NSValue+AGKQuad.m in Sources */,
 				5BE1D3D9202020BB00476787 /* CALayer+AGKQuad.m in Sources */,
 				5BE1D3D2202020BB00476787 /* AGKQuad.m in Sources */,
+				5BDA3995202E9683006F47AA /* MySixDrawMethodView.m in Sources */,
 				5BE1D3E2202020BB00476787 /* AGKMatrix.m in Sources */,
 				5BE1D3DC202020BB00476787 /* UIImage+AGK+CATransform3D.m in Sources */,
 				5BE1D3DF202020BB00476787 /* UIView+AGK+AngleConverter.m in Sources */,

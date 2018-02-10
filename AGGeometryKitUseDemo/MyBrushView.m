@@ -70,8 +70,6 @@
         //get brush rect
         CGRect brushRect = CGRectMake(point.x - BRUSH_SIZE/2, point.y - BRUSH_SIZE/2, BRUSH_SIZE, BRUSH_SIZE);
         
-
-        
         //only draw brush stroke if it intersects dirty rect
         if (CGRectIntersectsRect(rect, brushRect)) {
             //draw brush stroke
