@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B1923E22030443B00832CF3 /* MyTestDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1923E12030443B00832CF3 /* MyTestDrawView.m */; };
 		5B203DF920244772009ECFBE /* MyDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B203DF820244771009ECFBE /* MyDrawView.m */; };
 		5B9267D620295B3C004475EC /* MyDrawView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9267D520295B3C004475EC /* MyDrawView2.m */; };
 		5BA7E8F3202C49DD00869B0A /* MyDrawView3.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA7E8F2202C49DD00869B0A /* MyDrawView3.m */; };
@@ -68,6 +69,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B1923E02030443B00832CF3 /* MyTestDrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTestDrawView.h; sourceTree = "<group>"; };
+		5B1923E12030443B00832CF3 /* MyTestDrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTestDrawView.m; sourceTree = "<group>"; };
 		5B203DF720244771009ECFBE /* MyDrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDrawView.h; sourceTree = "<group>"; };
 		5B203DF820244771009ECFBE /* MyDrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDrawView.m; sourceTree = "<group>"; };
 		5B9267D420295B3C004475EC /* MyDrawView2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDrawView2.h; sourceTree = "<group>"; };
@@ -230,6 +233,8 @@
 				5BDA3994202E9683006F47AA /* MySixDrawMethodView.m */,
 				5BDA3996202ED4AF006F47AA /* MyHandleImageView.h */,
 				5BDA3997202ED4AF006F47AA /* MyHandleImageView.m */,
+				5B1923E02030443B00832CF3 /* MyTestDrawView.h */,
+				5B1923E12030443B00832CF3 /* MyTestDrawView.m */,
 				5BE1D36C2020206C00476787 /* Assets.xcassets */,
 				5BE1D36E2020206C00476787 /* LaunchScreen.storyboard */,
 				5BE1D3712020206C00476787 /* Info.plist */,
@@ -477,6 +482,7 @@
 			files = (
 				5BBCEA5220216FDE0000EB3D /* ThirdVC.m in Sources */,
 				5BE1D3682020206C00476787 /* ViewController.m in Sources */,
+				5B1923E22030443B00832CF3 /* MyTestDrawView.m in Sources */,
 				5BE1D3DE202020BB00476787 /* UIScrollView+AGK+Properties.m in Sources */,
 				5BE1D3E3202020BB00476787 /* AGKTransformPixelMapper.m in Sources */,
 				5BE1D3E4202020BC00476787 /* CGGeometry+AGGeometryKit.m in Sources */,
