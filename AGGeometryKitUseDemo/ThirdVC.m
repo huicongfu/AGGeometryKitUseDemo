@@ -49,7 +49,15 @@
     
 //    [self handleCGImage];
     
-    [self CoreImageUseMethod];
+//    [self CoreImageUseMethod];
+    
+    [self classicDrawLine];
+}
+
+- (void)classicDrawLine {
+    self.view6 = [[MyTestDrawView alloc] initWithFrame:self.view.bounds];
+    self.view6.backgroundColor = [UIColor clearColor];
+    [self.view addSubview:self.view6];
 }
 
 #pragma mark -  Core Image的用法 CIFilter看上去就像一个由键值组成的字典。它生成一个CIImage对象作为其输出。
