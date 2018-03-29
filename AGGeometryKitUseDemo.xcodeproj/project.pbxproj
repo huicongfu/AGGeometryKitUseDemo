@@ -49,6 +49,8 @@
 		5BE1D3E4202020BC00476787 /* CGGeometry+AGGeometryKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D3CB202020BB00476787 /* CGGeometry+AGGeometryKit.m */; };
 		5BE1D3E5202020BC00476787 /* CGImageRef+AGK+CATransform3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1D3CD202020BB00476787 /* CGImageRef+AGK+CATransform3D.m */; };
 		5BE1D3E6202020BC00476787 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BE1D3CE202020BB00476787 /* Info.plist */; };
+		5DD0EC56206CFF030002A8EE /* AGKUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD0EC54206CFF030002A8EE /* AGKUseViewController.m */; };
+		5DD0EC57206CFF030002A8EE /* AGKUseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DD0EC55206CFF030002A8EE /* AGKUseViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -159,6 +161,9 @@
 		5BE1D3CC202020BB00476787 /* CGImageRef+AGK+CATransform3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGImageRef+AGK+CATransform3D.h"; sourceTree = "<group>"; };
 		5BE1D3CD202020BB00476787 /* CGImageRef+AGK+CATransform3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGImageRef+AGK+CATransform3D.m"; sourceTree = "<group>"; };
 		5BE1D3CE202020BB00476787 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DD0EC53206CFF030002A8EE /* AGKUseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGKUseViewController.h; sourceTree = "<group>"; };
+		5DD0EC54206CFF030002A8EE /* AGKUseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGKUseViewController.m; sourceTree = "<group>"; };
+		5DD0EC55206CFF030002A8EE /* AGKUseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AGKUseViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +240,9 @@
 				5BDA3997202ED4AF006F47AA /* MyHandleImageView.m */,
 				5B1923E02030443B00832CF3 /* MyTestDrawView.h */,
 				5B1923E12030443B00832CF3 /* MyTestDrawView.m */,
+				5DD0EC53206CFF030002A8EE /* AGKUseViewController.h */,
+				5DD0EC54206CFF030002A8EE /* AGKUseViewController.m */,
+				5DD0EC55206CFF030002A8EE /* AGKUseViewController.xib */,
 				5BE1D36C2020206C00476787 /* Assets.xcassets */,
 				5BE1D36E2020206C00476787 /* LaunchScreen.storyboard */,
 				5BE1D3712020206C00476787 /* Info.plist */,
@@ -456,6 +464,7 @@
 				5BE1D3702020206C00476787 /* LaunchScreen.storyboard in Resources */,
 				5BE1D36D2020206C00476787 /* Assets.xcassets in Resources */,
 				5BE1D36B2020206C00476787 /* Main.storyboard in Resources */,
+				5DD0EC57206CFF030002A8EE /* AGKUseViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +514,7 @@
 				5BDA3998202ED4AF006F47AA /* MyHandleImageView.m in Sources */,
 				5BE1D3D5202020BB00476787 /* AGKMatrix+CATransform3D.m in Sources */,
 				5BE1D3DD202020BB00476787 /* UIImage+AGKQuad.m in Sources */,
+				5DD0EC56206CFF030002A8EE /* AGKUseViewController.m in Sources */,
 				5BE1D3D3202020BB00476787 /* AGKVector3D.m in Sources */,
 				5BE1D3652020206C00476787 /* AppDelegate.m in Sources */,
 				5BE1D3E0202020BB00476787 /* UIView+AGK+Properties.m in Sources */,

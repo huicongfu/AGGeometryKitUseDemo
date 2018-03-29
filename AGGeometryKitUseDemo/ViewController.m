@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "AGGeometryKit/AGGeometryKit.h"
+#import "AGKUseViewController.h"
 
 @interface ViewController ()
 
@@ -72,6 +73,10 @@
     self.maskView.layer.position = CGPointZero;
     self.maskView.layer.shadowPath = [UIBezierPath bezierPathWithAGKQuad:quad].CGPath;
     self.maskView.layer.shadowColor = AGKQuadIsConvex(quad) ? greenColor.CGColor : redColor.CGColor;
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self presentViewController:[[AGKUseViewController alloc] init] animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {
